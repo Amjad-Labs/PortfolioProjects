@@ -188,6 +188,7 @@ df_sales = pd.DataFrame(sales_data, columns=[
     "Transaction_ID", "Customer_ID", "Product", "Purchase_Date", "Quantity"
 ])
 
-df_sales.to_csv("C:/Users/aafre/Videos/Captures/Amjad Files/Desktop/ecommerce-sales-dataset/sales.csv", index=False)
+df_sales.to_csv("C:/Users/aafre/Videos/Captures/Amjad Files/sales-dataset/sales.csv", index=False)
 
 print("Dataset creation: SUCCESS!")
+
